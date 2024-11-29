@@ -15,7 +15,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: postgres:9.4
+      - image: public.ecr.aws/docker/library/postgres:9.6.24
         name: postgres
         ports:
         - containerPort: 5432
