@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_result:before
+      - image: docker.udayun.com/dockersamples/examplevotingapp_result:before
         name: result-e2e
         ports:
         - containerPort: 80
