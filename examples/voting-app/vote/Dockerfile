@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM python:3.6-alpine
+FROM public.ecr.aws/docker/library/python:3.6.15-alpine3.15
 
 # Set the application directory
 WORKDIR /app
