@@ -1,4 +1,4 @@
-FROM python:3.6-alpine
+FROM public.ecr.aws/docker/library/python:3.6.15-alpine3.15
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 
